@@ -3,6 +3,7 @@ package com.example.git_test;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -19,6 +20,6 @@ public class MainActivity extends AppCompatActivity
 
     }
     private void onclick(){
-        
+        Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
     }
 }
